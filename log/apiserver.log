@@ -430,3 +430,138 @@
 {"level":"INFO","timestamp":"2019-08-02 17:33:47.056","file":"go-juejin/main.go:52","msg":"The router has been deployed successfully."}
 {"level":"DEBUG","timestamp":"2019-08-02 17:33:52.530","file":"middleware/login.go:56","msg":"New request come in, path: /v1/user, Method: GET, body ``"}
 {"level":"INFO","timestamp":"2019-08-02 17:33:52.533","file":"middleware/login.go:83","msg":"2.305ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-08-03 09:32:29.722","file":"go-juejin/main.go:57","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-03 09:32:29.722","file":"go-juejin/main.go:62","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-03 09:32:29.723","file":"go-juejin/main.go:75","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-03 09:32:30.725","file":"go-juejin/main.go:49","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-08-03 09:34:18.042","file":"middleware/login.go:55","msg":"New request come in, path: /login, Method: POST, body `{\n\t\"username\":\"admin\",\n\t\"password\":\"admin\"\n}`"}
+{"level":"INFO","timestamp":"2019-08-03 09:34:18.165","file":"middleware/login.go:82","msg":"122.538ms     | 127.0.0.1    | POST /login | {code: 0, message: OK}"}
+{"level":"DEBUG","timestamp":"2019-08-03 09:42:21.526","file":"middleware/login.go:55","msg":"New request come in, path: /v1/user, Method: GET, body ``"}
+{"level":"INFO","timestamp":"2019-08-03 09:42:21.538","file":"middleware/login.go:82","msg":"12.679ms      | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-08-03 10:56:10.955","file":"go-juejin/main.go:73","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-03 10:56:10.955","file":"go-juejin/main.go:78","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-03 10:56:10.955","file":"go-juejin/main.go:74","msg":"listen tcp :8081: bind: address already in use"}
+{"level":"INFO","timestamp":"2019-08-03 10:56:10.955","file":"go-juejin/main.go:79","msg":"listen tcp :8080: bind: address already in use"}
+{"level":"INFO","timestamp":"2019-08-06 10:54:52.596","file":"go-juejin/main.go:78","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-06 10:54:52.596","file":"go-juejin/main.go:91","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 10:54:52.596","file":"go-juejin/main.go:73","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-06 10:54:53.601","file":"go-juejin/main.go:65","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-08-06 11:13:30.419","file":"go-juejin/main.go:64","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-06 11:13:30.420","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:13:30.420","file":"go-juejin/main.go:59","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-06 11:13:31.423","file":"go-juejin/main.go:51","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-08-06 11:17:50.813","file":"go-juejin/main.go:64","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-06 11:17:50.813","file":"go-juejin/main.go:59","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-06 11:17:50.814","file":"go-juejin/main.go:51","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-08-06 11:18:20.747","file":"go-juejin/main.go:64","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-06 11:18:20.748","file":"go-juejin/main.go:59","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-06 11:18:20.749","file":"go-juejin/main.go:51","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-08-06 11:19:08.309","file":"go-juejin/main.go:64","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-06 11:19:08.309","file":"go-juejin/main.go:59","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-06 11:19:08.314","file":"go-juejin/main.go:51","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-08-06 11:19:57.323","file":"go-juejin/main.go:64","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-06 11:19:57.326","file":"go-juejin/main.go:59","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-06 11:19:57.329","file":"go-juejin/main.go:51","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-08-06 11:20:34.039","file":"go-juejin/main.go:64","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-06 11:20:34.039","file":"go-juejin/main.go:59","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-06 11:20:34.049","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:20:35.052","file":"go-juejin/main.go:51","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-08-06 11:30:26.867","file":"go-juejin/main.go:64","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-06 11:30:26.867","file":"go-juejin/main.go:59","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-06 11:30:26.867","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:30:27.871","file":"go-juejin/main.go:51","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-08-06 11:33:55.763","file":"go-juejin/main.go:64","msg":"Start to listening the incoming requests on http address: :8089"}
+{"level":"INFO","timestamp":"2019-08-06 11:33:55.763","file":"go-juejin/main.go:59","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-06 11:33:55.764","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:33:56.768","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:33:57.771","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:33:58.772","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:33:59.777","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:34:00.778","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:34:01.780","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:34:02.782","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:34:03.784","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:34:04.789","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"FATAL","timestamp":"2019-08-06 11:34:05.793","file":"go-juejin/main.go:49","msg":"The router has no response, or it might took too long to start up.","data":{"error":"Cannot connect to the router.","trace":"goroutine 4 [running]:\ngithub.com/lexkong/log/lager.(*logger).logs(0xc000303740, 0xc00035ef20, 0x2, 0x2, 0x4, 0x47e9805, 0x42, 0x48c9720, 0xc000359df0, 0x0, ...)\n\t/code/go/workspace/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:135 +0x8de\ngithub.com/lexkong/log/lager.(*logger).log(0xc000303740, 0x4, 0x47e9805, 0x42, 0x48c9720, 0xc000359df0, 0x0, 0x0, 0x0)\n\t/code/go/workspace/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:123 +0xd9\ngithub.com/lexkong/log/lager.(*logger).Fatal(0xc000303740, 0x47e9805, 0x42, 0x48c9720, 0xc000359df0, 0x0, 0x0, 0x0)\n\t/code/go/workspace/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:197 +0x83\ngithub.com/lexkong/log.Fatal(...)\n\t/code/go/workspace/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/st_lager.go:162\nmain.main.func1()\n\t/code/go/workspace/src/go-juejin/main.go:49 +0xc6\ncreated by main.main\n\t/code/go/workspace/src/go-juejin/main.go:47 +0x1fb\n"}}
+{"level":"INFO","timestamp":"2019-08-06 11:34:25.157","file":"go-juejin/main.go:59","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-06 11:34:25.157","file":"go-juejin/main.go:64","msg":"Start to listening the incoming requests on http address: :8086"}
+{"level":"INFO","timestamp":"2019-08-06 11:34:25.157","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:34:26.161","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:34:27.163","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:34:28.164","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:34:29.165","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:34:30.166","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:34:31.167","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:34:32.170","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:34:33.171","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:34:34.176","file":"go-juejin/main.go:77","msg":"Waiting for the router,retry in 1 second."}
+{"level":"FATAL","timestamp":"2019-08-06 11:34:35.177","file":"go-juejin/main.go:49","msg":"The router has no response, or it might took too long to start up.","data":{"error":"Cannot connect to the router.","trace":"goroutine 10 [running]:\ngithub.com/lexkong/log/lager.(*logger).logs(0xc00007a9c0, 0xc0003ea620, 0x2, 0x2, 0x4, 0x47e9805, 0x42, 0x48c9720, 0xc0003f46a0, 0x0, ...)\n\t/code/go/workspace/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:135 +0x8de\ngithub.com/lexkong/log/lager.(*logger).log(0xc00007a9c0, 0x4, 0x47e9805, 0x42, 0x48c9720, 0xc0003f46a0, 0x0, 0x0, 0x0)\n\t/code/go/workspace/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:123 +0xd9\ngithub.com/lexkong/log/lager.(*logger).Fatal(0xc00007a9c0, 0x47e9805, 0x42, 0x48c9720, 0xc0003f46a0, 0x0, 0x0, 0x0)\n\t/code/go/workspace/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:197 +0x83\ngithub.com/lexkong/log.Fatal(...)\n\t/code/go/workspace/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/st_lager.go:162\nmain.main.func1()\n\t/code/go/workspace/src/go-juejin/main.go:49 +0xc6\ncreated by main.main\n\t/code/go/workspace/src/go-juejin/main.go:47 +0x1fb\n"}}
+{"level":"INFO","timestamp":"2019-08-06 11:34:44.232","file":"go-juejin/main.go:64","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-06 11:34:44.232","file":"go-juejin/main.go:59","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-06 11:34:44.233","file":"go-juejin/main.go:51","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-08-06 11:44:36.496","file":"go-juejin/main.go:64","msg":"Start to listening the incoming requests on http address: :7777"}
+{"level":"INFO","timestamp":"2019-08-06 11:44:36.496","file":"go-juejin/main.go:59","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-06 11:44:36.497","file":"go-juejin/main.go:51","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-08-06 11:51:05.394","file":"go-juejin/main.go:60","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-06 11:51:05.394","file":"go-juejin/main.go:78","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-06 11:51:05.394","file":"go-juejin/main.go:65","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-06 11:51:06.395","file":"go-juejin/main.go:52","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-08-10 15:09:11.899","file":"go-juejin/main.go:55","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-10 15:09:11.900","file":"go-juejin/main.go:74","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-10 15:09:11.899","file":"go-juejin/main.go:60","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-10 15:09:12.901","file":"go-juejin/main.go:47","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-08-10 15:09:58.148","file":"middleware/login.go:54","msg":"New request come in, path: /v1/user, Method: GET, body ``"}
+{"level":"INFO","timestamp":"2019-08-10 15:09:58.149","file":"middleware/login.go:81","msg":"179µs         | ::1          | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"DEBUG","timestamp":"2019-08-10 15:10:06.693","file":"middleware/login.go:54","msg":"New request come in, path: /v1/user/:id, Method: GET, body ``"}
+{"level":"INFO","timestamp":"2019-08-10 15:10:06.693","file":"middleware/login.go:81","msg":"115µs         | ::1          | GET /v1/user/:id | {code: 20103, message: The token was invalid.}"}
+{"level":"DEBUG","timestamp":"2019-08-10 15:10:11.722","file":"middleware/login.go:54","msg":"New request come in, path: /v1/user/3, Method: GET, body ``"}
+{"level":"INFO","timestamp":"2019-08-10 15:10:11.723","file":"middleware/login.go:81","msg":"115µs         | ::1          | GET /v1/user/3 | {code: 20103, message: The token was invalid.}"}
+{"level":"DEBUG","timestamp":"2019-08-10 15:10:15.597","file":"middleware/login.go:54","msg":"New request come in, path: /v1/user/1, Method: GET, body ``"}
+{"level":"INFO","timestamp":"2019-08-10 15:10:15.597","file":"middleware/login.go:81","msg":"108µs         | ::1          | GET /v1/user/1 | {code: 20103, message: The token was invalid.}"}
+{"level":"DEBUG","timestamp":"2019-08-10 15:10:27.225","file":"middleware/login.go:54","msg":"New request come in, path: /v1/user, Method: GET, body ``"}
+{"level":"INFO","timestamp":"2019-08-10 15:10:27.226","file":"middleware/login.go:81","msg":"635µs         | ::1          | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-08-10 15:11:12.365","file":"go-juejin/main.go:56","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-10 15:11:12.365","file":"go-juejin/main.go:51","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-10 15:11:12.366","file":"go-juejin/main.go:43","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-08-10 15:11:17.174","file":"middleware/login.go:54","msg":"New request come in, path: /v1/user, Method: GET, body ``"}
+{"level":"INFO","timestamp":"2019-08-10 15:11:17.174","file":"middleware/login.go:81","msg":"153µs         | ::1          | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-08-10 15:44:55.402","file":"go-juejin/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-10 15:44:55.402","file":"go-juejin/main.go:53","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-10 15:44:55.405","file":"go-juejin/main.go:45","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-08-10 17:11:46.787","file":"config/config.go:76","msg":"Config file changed: /code/go/workspace/src/go-juejin/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-08-10 17:14:00.260","file":"go-juejin/main.go:51","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-10 17:14:00.259","file":"go-juejin/main.go:57","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-10 17:14:00.261","file":"go-juejin/main.go:43","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-08-10 17:14:24.783","file":"middleware/login.go:54","msg":"New request come in, path: /v1/user, Method: GET, body ``"}
+{"level":"INFO","timestamp":"2019-08-10 17:14:24.783","file":"middleware/login.go:81","msg":"533µs         | ::1          | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-08-25 14:56:47.574","file":"go-juejin/main.go:57","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-25 14:56:47.575","file":"go-juejin/main.go:51","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-25 14:56:47.575","file":"go-juejin/main.go:72","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-25 14:56:48.579","file":"go-juejin/main.go:43","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-08-25 14:59:57.881","file":"middleware/login.go:54","msg":"New request come in, path: /v1/user/zhang, Method: GET, body ``"}
+{"level":"INFO","timestamp":"2019-08-25 14:59:57.882","file":"middleware/login.go:81","msg":"582µs         | 127.0.0.1    | GET /v1/user/zhang | {code: 20103, message: The token was invalid.}"}
+{"level":"DEBUG","timestamp":"2019-08-25 15:02:05.821","file":"middleware/login.go:54","msg":"New request come in, path: /login, Method: POST, body `{\n\t\"username\":\"admin\",\n\t\"password\":\"admin\"\n}`"}
+{"level":"INFO","timestamp":"2019-08-25 15:02:05.897","file":"middleware/login.go:81","msg":"76.372ms      | 127.0.0.1    | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-08-26 11:37:33.826","file":"go-juejin/main.go:57","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-26 11:37:33.827","file":"go-juejin/main.go:51","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-26 11:37:33.833","file":"go-juejin/main.go:43","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-08-26 11:37:38.453","file":"middleware/login.go:54","msg":"New request come in, path: /login, Method: POST, body `{\n\t\"username\":\"admin\",\n\t\"password\":\"admin\"\n}`"}
+{"level":"INFO","timestamp":"2019-08-26 11:37:38.545","file":"middleware/login.go:81","msg":"91.246ms      | 127.0.0.1    | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-08-26 16:22:59.431","file":"go-juejin/main.go:57","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-26 16:22:59.431","file":"go-juejin/main.go:51","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-26 16:22:59.432","file":"go-juejin/main.go:72","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-26 16:23:00.436","file":"go-juejin/main.go:43","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-08-26 16:43:38.286","file":"middleware/login.go:54","msg":"New request come in, path: /login, Method: POST, body `{\n\t\"username\":\"admin\",\n\t\"password\":\"admin\"\n}`"}
+{"level":"INFO","timestamp":"2019-08-26 16:43:38.402","file":"middleware/login.go:81","msg":"116.329ms     | 127.0.0.1    | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-08-26 16:48:41.581","file":"go-juejin/main.go:57","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-08-26 16:48:41.581","file":"go-juejin/main.go:51","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-08-26 16:48:41.581","file":"go-juejin/main.go:72","msg":"Waiting for the router,retry in 1 second."}
+{"level":"INFO","timestamp":"2019-08-26 16:48:42.585","file":"go-juejin/main.go:43","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-08-26 16:55:10.766","file":"middleware/login.go:54","msg":"New request come in, path: /login, Method: POST, body `{\"username\":\"admin\",\"password\":\"admin\"}`"}
+{"level":"INFO","timestamp":"2019-08-26 16:55:10.837","file":"middleware/login.go:81","msg":"71.054ms      | 192.168.123.52 | POST /login | {code: 0, message: OK}"}
+{"level":"DEBUG","timestamp":"2019-08-26 16:55:22.127","file":"middleware/login.go:54","msg":"New request come in, path: /login, Method: POST, body `{\"username\":\"admin\",\"password\":\"admin\"}`"}
+{"level":"INFO","timestamp":"2019-08-26 16:55:22.193","file":"middleware/login.go:81","msg":"69.647ms      | 192.168.123.52 | POST /login | {code: 0, message: OK}"}
+{"level":"DEBUG","timestamp":"2019-08-26 17:24:36.284","file":"middleware/login.go:54","msg":"New request come in, path: /login, Method: POST, body `{\"username\":\"admin\",\"password\":\"admin\"}`"}
+{"level":"INFO","timestamp":"2019-08-26 17:24:36.351","file":"middleware/login.go:81","msg":"67.894ms      | 192.168.123.52 | POST /login | {code: 0, message: OK}"}
+{"level":"DEBUG","timestamp":"2019-08-26 17:24:37.804","file":"middleware/login.go:54","msg":"New request come in, path: /login, Method: POST, body `{\"username\":\"admin\",\"password\":\"admin\"}`"}
+{"level":"INFO","timestamp":"2019-08-26 17:24:37.868","file":"middleware/login.go:81","msg":"64.344ms      | 192.168.123.52 | POST /login | {code: 0, message: OK}"}

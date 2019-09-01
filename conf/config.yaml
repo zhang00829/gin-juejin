@@ -5,6 +5,10 @@ url: http://127.0.0.1:8080   # pingServer函数请求的API服务器的ip:port
 max_ping_count: 10           # pingServer函数try的次数
 gormlog: false
 jwt_secret: i878OI&)(*&34(%$#%$$@#*&*&)(HGHGJioyhiu
+tls:
+  addr: :8081
+  cert: conf/server.crt
+  key: conf/server.key
 log:
   writers: file,stdout
   logger_level: DEBUG
@@ -19,8 +23,4 @@ db:
   addr: 127.0.0.1:3306
   username: root
   password: Apple520
-docker_db:
-  name: db_apiserver
-  addr: 127.0.0.1:3306
-  username: root
-  password: Apple520
+

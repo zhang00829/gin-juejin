@@ -9,21 +9,22 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// Load loads the middlewares, routes, handlers.
-func Load(g *gin.Engine, mv ...gin.HandlerFunc) *gin.Engine {
-	// Middlewares.
+// Load loads the middleware, routes, handlers.
+func Load(g *gin.Engine) *gin.Engine {
+	// Middleware.
 	g.Use(gin.Recovery())
 	g.Use(middleware.NoCache)
 	g.Use(middleware.Options)
 	g.Use(middleware.Secure)
-	g.Use(mv...)
+	g.Use(middleware.RequestId)
+	g.Use(middleware.Logging)
 
-	//404 Hadnler
+	//404 Handler
 	g.NoRoute(func(c *gin.Context) {
 		c.String(http.StatusNotFound, "The incorrect API route.")
 	})
 
-	// api for authentication functionalities
+	// api for authentication functional
 	g.POST("/login", user.Login)
 
 	u := g.Group("/v1/user")

@@ -1,6 +1,7 @@
 package config
 
 import (
+	"fmt"
 	"strings"
 
 	"github.com/fsnotify/fsnotify"
@@ -13,10 +14,11 @@ type Config struct {
 }
 
 func Init(cfg string) error {
+
 	c := Config{
 		Name: cfg,
 	}
-
+	fmt.Printf("%s\n", c)
 	// 初始化配置文件
 	if err := c.initConfig(); err != nil {
 		return err
@@ -61,7 +63,10 @@ func (c *Config) initLog() {
 		LogRotateSize:  viper.GetInt("log.log_rotate_size"),
 		LogBackupCount: viper.GetInt("log.log_backup_count"),
 	}
-	log.InitWithConfig(&passLagerCfg)
+	err := log.InitWithConfig(&passLagerCfg)
+	if err != nil {
+		fmt.Printf("初始化日志失败,%s", err)
+	}
 }
 
 // 监控配置文件变化并热加载程序

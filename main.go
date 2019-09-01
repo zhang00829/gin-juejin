@@ -8,7 +8,6 @@ import (
 	"go-juejin/config"
 	"go-juejin/model"
 	"go-juejin/router"
-	"go-juejin/router/middleware"
 	"net/http"
 	"time"
 
@@ -35,12 +34,7 @@ func main() {
 	gin.SetMode(viper.GetString("runmode"))
 
 	g := gin.New()
-
-	router.Load(
-		g,
-		middleware.Logging(),
-		middleware.RequestId(),
-	)
+	router.Load(g)
 
 	go func() {
 		if err := pingServer(); err != nil {
@@ -48,8 +42,22 @@ func main() {
 		}
 		log.Info("The router has been deployed successfully.")
 	}()
+
+	//Start to listening the incoming requests.
+	cert := viper.GetString("tls.cert")
+	key := viper.GetString("tls.key")
+	if cert != "" && key != "" {
+		go func() {
+			log.Infof("Start to listening the incoming requests on https address: %s", viper.GetString("tls.addr"))
+			// 启动https服务
+			log.Info(http.ListenAndServeTLS(viper.GetString("tls.addr"), cert, key, g).Error())
+		}()
+	}
+
 	log.Infof("Start to listening the incoming requests on http address: %s", viper.GetString("addr"))
+	// 启动http服务
 	log.Infof(http.ListenAndServe(viper.GetString("addr"), g).Error())
+
 }
 
 func pingServer() error {
@@ -64,6 +72,6 @@ func pingServer() error {
 		log.Info("Waiting for the router,retry in 1 second.")
 		time.Sleep(time.Second)
 	}
-	return errors.New("Cannot connect to the router.")
+	return errors.New("cannot connect to the router")
 
 }

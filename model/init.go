@@ -11,8 +11,7 @@ import (
 )
 
 type Database struct {
-	Self   *gorm.DB
-	Docker *gorm.DB
+	Self *gorm.DB
 }
 
 var DB *Database
@@ -44,35 +43,23 @@ func setupDB(db *gorm.DB) {
 
 // used for cli
 func InitSelfDB() *gorm.DB {
-	return openDB(viper.GetString("db.username"),
+	return openDB(
+		viper.GetString("db.username"),
 		viper.GetString("db.password"),
 		viper.GetString("db.addr"),
-		viper.GetString("db.name"))
-}
-
-func GetSelfDB() *gorm.DB {
-	return InitSelfDB()
-}
-
-func InitDockerDB() *gorm.DB {
-	return openDB(viper.GetString("docker_db.username"),
-		viper.GetString("docker_db.password"),
-		viper.GetString("docker_db.addr"),
-		viper.GetString("docker_db.name"))
-}
-
-func GetDockerDB() *gorm.DB {
-	return InitDockerDB()
+		viper.GetString("db.name"),
+	)
 }
 
 func (db *Database) Init() {
 	DB = &Database{
-		Self:   GetSelfDB(),
-		Docker: GetDockerDB(),
+		Self: InitSelfDB(),
 	}
 }
 
 func (db *Database) Close() {
-	DB.Self.Close()
-	DB.Docker.Close()
+	selfErr := DB.Self.Close()
+	if selfErr != nil {
+		log.Infof("关闭本地数据库错误，%s", selfErr)
+	}
 }
